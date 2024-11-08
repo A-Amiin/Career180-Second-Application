@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Styles.css">
+    <title>Bootstrap(1)</title>
+</head>
+
+<body>
+    <nav id="top" class="navbar d-flex flex-column">
+        <div class="container d-flex justify-content-between align-items-baseline border-bottom-gray pb-2">
+            <!-- Left Section: Subscribe -->
+            <a class="navbar-brand" href="#">Subscribe</a>
+
+            <!-- Middle Section: Brand Name -->
+            <span class="navbar-brand mx-auto fs-1 fw-bold fst-italic">Ahmed Amin</span>
+
+            <!-- Right Section: Search Form -->
+            <form class="d-flex" role="search">
+                <i class="bi bi-search fs-4 px-3"></i>
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+        <div class=" d-flex py-3 justify-content-between overflow-auto w-75" style="white-space: nowrap;">
+            <a class="nav-link px-3" href="#">Home</a>
+            <a class="nav-link px-3" href="#">About</a>
+            <a class="nav-link px-3" href="#">Services</a>
+            <a class="nav-link px-3" href="#">Contact</a>
+            <a class="nav-link px-3" href="#">US</a>
+            <a class="nav-link px-3" href="#">Home</a>
+            <a class="nav-link px-3" href="#">About</a>
+            <a class="nav-link px-3" href="#">Services</a>
+            <a class="nav-link px-3" href="#">Contact</a>
+            <a class="nav-link px-3" href="#">US</a>
+            <a class="nav-link px-3" href="#">Home</a>
+            <a class="nav-link px-3" href="#">About</a>
+            <a class="nav-link px-3" href="#">Services</a>
+            <a class="nav-link px-3" href="#">Contact</a>
+            <a class="nav-link px-3" href="#">US</a>
+        </div>
+    </nav>
+
+    <section style="color: white; border-radius: 5px;" class="container bg-dark p-5">
+        <div class="col-md-6 px-0">
+            <h1 class="display-4 fst-italic fs-1 fw-bold">Title of a longer featured blog post</h1>
+            <p class="py-2 fs-4">Multiple lines of text that form the lede, informing new readers quickly and
+                efficiently
+                about what's
+                most interesting in this post's contents.</p>
+            <p class="fs-4 fw-bold">Continue reading...</p>
+        </div>
+    </section>
+
+    <section class="container my-5 p-sm-0">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="row g-0"> <!-- Use 'row g-0' for no gutter spacing -->
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="text-primary">World</h5>
+                                <h3 class="card-title fw-bold">Featured post</h3>
+                                <span>Nov 12</span>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content..</p>
+                                <p class="card-text"><a href="" class="text-primary">Continue
+                                        reading</a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4"> <!-- Adjust the column for the image -->
+                            <img src="https://images.unsplash.com/photo-1537803577687-d5baa3adab43?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-3">
+                    <div class="row g-0"> <!-- Use 'row g-0' for no gutter spacing -->
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="text-success">Design</h5>
+                                <h3 class="card-title fw-bold">Post title</h3>
+                                <span>Nov 11</span>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional content.</p>
+                                <p class="card-text"><a href="" class="text-primary">Continue
+                                        reading</a></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4"> <!-- Adjust the column for the image -->
+                            <img src="https://images.unsplash.com/photo-1616797147810-cc6b4ee953b7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="row">
+            <section class="col-lg-8 col-md-12 mb-4">
+                <h3 class="fst-italic">From The Firehose</h3>
+                <div class="content">
+                    <h1 class="fst-italic">Sample blog post</h1>
+                    <span>January 1, 2014 by <a href="#">Mark</a></span>
+                    <p>This blog post shows a few different types of content that's supported and styled with Bootstrap.
+                        Basic typography, images, and code are all supported.</p>
+                </div>
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo
+                    quam.
+                    Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis.
+                    Cras
+                    mattis consectetur purus sit amet fermentum.</p>
+                <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu
+                    leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                <p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum.
+                    Aenean
+                    lacinia bibendum nulla sed consectetur.</p>
+                <h2 class="fst-italic">Heading</h2>
+                <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo
+                    luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac
+                    consectetur ac, vestibulum at eros.</p>
+                <h3 class="fst-italic">Sub-heading</h3>
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <pre><code>
+                    function testFunction() {
+                        console.log("Hello, World!");
+                    }
+                    testFunction();
+                </code></pre>
+                <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce
+                    dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+                <h3 class="fst-italic">Sub-heading</h3>
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia
+                    bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus,
+                    tellus ac
+                    cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet</li>
+                    <li>Consectetur adipiscing elit</li>
+                    <li>Integer molestie lorem at massa</li>
+                </ul>
+                <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
+                <ol>
+                    <li>Vestibulum id ligula porta felis euismod semper.</li>
+                    <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
+                    <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
+                </ol>
+                <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis. Cras
+                    mattis consectetur purus sit amet fermentum.</p>
+                <section>
+                    <h1 class="fst-italic">Another blog post</h1>
+                    <span>February 15, 2022 by <a href="#">Jacob</a></span>
+                    <p>Cum sociis natoque penatibus et magnis <span class="text-primary">dis parturient montes</span>,
+                        nascetur ridiculus
+                        mus.
+                        Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere
+                        consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+                    <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare
+                        vel eu
+                        leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum.
+                        Aenean lacinia bibendum nulla sed consectetur.</p>
+                    <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non
+                        commodo
+                        luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac
+                        consectetur ac, vestibulum at eros.</p>
+                </section>
+                <section>
+                    <h1 class="fst-italic">New feature</h1>
+                    <span>December 14, 2013 by <a href="#">Chris</a></span>
+                    <p>Cum sociis natoque penatibus et magnis <span class="text-primary">dis parturient montes</span>,
+                        nascetur ridiculus
+                        mus.
+                        Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere
+                        consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+                    <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare
+                        vel eu
+                        leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet</li>
+                        <li>Consectetur adipiscing elit</li>
+                        <li>Integer molestie lorem at massa</li>
+                    </ul>
+                    <p>Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum.
+                        Aenean lacinia bibendum nulla sed consectetur.</p>
+                    <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non
+                        commodo
+                        luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac
+                        consectetur ac, vestibulum at eros.</p>
+                </section>
+                <div class="Buttons mb-5">
+                    <a href="#" class="btn btn-primary">Read more</a>
+                    <a href="#" class="btn btn-secondary">Share</a>
+                </div>
+            </section>
+
+            <aside class="col-lg-4 col-md-12">
+                <div class="about card bg-body-tertiary p-3 mb-4">
+                    <h3 class="fst-italic">About the blog</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere consectetur est at lobortis.
+                        Cras mattis consectetur purus sit amet fermentum.</p>
+                </div>
+                <div class="archives mb-4">
+                    <h3 class="fst-italic">Archives</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">January 2023</a></li>
+                        <li><a href="#">February 2023</a></li>
+                        <li><a href="#">March 2023</a></li>
+                        <li><a href="#">April 2023</a></li>
+                        <li><a href="#">May 2023</a></li>
+                        <li><a href="#">June 2023</a></li>
+                    </ul>
+                </div>
+                <div class="social-media d-flex flex-column mb-5">
+                    <h3 class="fst-italic">Follow Me</h3>
+                    <a href="https://www.linkedin.com/in/ahmed-amin-a15981248/"><i class="bi bi-linkedin">
+                            LinkedIn</i></a>
+                    <a href="https://github.com/A-Amiin"><i class="bi bi-github"> GitHub</i></a>
+                    <a href="https://www.instagram.com/ahmed.mohamed_ft/"><i class="bi bi-instagram"> Instagram</i></a>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+    <footer class="bg-body-tertiary p-5 text-center">
+        <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a
+                href="https://www.linkedin.com/in/ahmed-amin-a15981248/">Ahmed Amin</a>.</p>
+        <a href="#top">Back To The Top</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
